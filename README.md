@@ -31,7 +31,7 @@ Sistem ini menggabungkan aplikasi frontend React + Vite, backend API Node.js + E
    cd backend && npm install
    ```
 
-3. Konfigurasi `.env` di folder `backend/`.
+3. Konfigurasi file environment di folder `backend/`.
 
 4. Jalankan backend:
    ```bash
@@ -67,7 +67,7 @@ Sistem ini menggabungkan aplikasi frontend React + Vite, backend API Node.js + E
 
 ## Konfigurasi Environment
 
-Buat file `backend/.env` dengan variabel minimal berikut:
+Buat file konfigurasi environment di folder `backend/` dengan variabel minimal berikut:
 
 ```env
 DB_HOST=localhost
@@ -85,6 +85,6 @@ Sesuaikan variabel tersebut dengan lingkungan dan kredensial Anda.
 
 ## Catatan Keamanan
 
-- Jangan pernah meng-push file `.env` ke GitHub.
-- Pastikan file sensitif seperti `.env`, kunci privat, dan kredensial tidak disimpan dalam repository.
+- Jangan pernah meng-push file konfigurasi environment yang berisi kredensial ke GitHub.
+- Pastikan file sensitif, kunci privat, dan kredensial tidak disimpan dalam repository.
 - Gunakan mekanisme secret management atau environment variables pada deployment.
