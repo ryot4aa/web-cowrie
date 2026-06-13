@@ -1,0 +1,18 @@
+# Ignore Node.js dependencies and build output
+node_modules/
+dist/
+
+# Ignore environment files and sensitive credentials
+.env
+backend/.env
+
+# Ignore backend dependencies
+backend/node_modules/
+
+# Ignore Cowrie runtime state and logs
+cowrie/var/
+cowrie/log/
+
+# Ignore SSL keys and log files
+backend/ssl/
+*.log
